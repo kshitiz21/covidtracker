@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    background: rgb(31, 22, 22);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+section{
+    padding-top: 10px;
+    text-align: center;
+    width: 1500px;
+    height: 550px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px;
+    grid-gap: 100px;
+    list-style: none;
+}
+
+.card_inner{
+    margin: 25px 50px 0px 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    height: 130px;
+}
+.card_name{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px red;
+}
+.card_total{
+    font-size: 25px;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px red;
+}
+
+.country{
+    background-color: teal;
+}
+
+.recovered{
+    background-color: green;
+}
+
+.confirmed{
+    background-color: rgb(19, 41, 63);
+}
+
+.death{
+    background-color: red;
+}
+
+.active{
+    background-color: rgb(22, 54, 58);
+}
+
+.updated{
+    background-color: saddlebrown;
+}
